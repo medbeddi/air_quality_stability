@@ -1,0 +1,35 @@
+# Caches Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Contenu des repertoires de donnees (on garde l'architecture avec .gitkeep)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Outputs generees (figures, modeles)
+outputs/figures/*
+outputs/models/*
+!outputs/figures/.gitkeep
+!outputs/models/.gitkeep
+
+# Checkpoints Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Environnements virtuels
+.env
+.venv
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
